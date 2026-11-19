@@ -1,0 +1,12 @@
+﻿metric,value
+n_reviewed_usable,98
+rule_high_risk_as_positive_accuracy,0.7551
+rule_precision,1.0
+rule_recall,0.5932
+rule_f1,0.7447
+rule_balanced_accuracy,0.7966
+tn,39
+fp,0
+fn,24
+tp,35
+note,Rules evaluated only on manual labels; not ground truth

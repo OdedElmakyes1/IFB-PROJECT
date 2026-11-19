@@ -1,0 +1,63 @@
+metric,value,notes
+n_keyword_corpus,1129607,from analysis_corpus.db
+n_timeline_corpus,37839416,
+n_stratified_keyword_sample,2734,keyword_lang_sample
+n_random_keyword_sample,8000,reservoir from all keyword tweets
+n_timeline_working_sample,4779,rowid modulo sample
+n_working_rows,15492,data/nlp_working_sample.db
+n_working_retained_english_nlp,7428,
+stratified_retained,1224,
+random_retained,3038,
+timeline_sample_retained,3177,
+est_keyword_translation_pct,16.55,from random sample
+est_keyword_translation_n,186950,extrapolated
+keyword_exact_dup_extra_all,831377,normalized hash over all keyword tweets
+keyword_exact_dup_groups_all,36381,
+sample_dup_extra,184,
+sample_dup_groups,105,
+n_review_examples,120,>=100
+stemming,Porter stemming (NLTK PorterStemmer); not WordNet lemmatization,
+detector,langdetect seed=2026 + unicode script override,
+ifb_token_count,42,removed in topic_text only
+random_lang_und,3633,"45.41% mostly ifb_dominated / undetectable, not English"
+random_lang_en,3043,38.04% English after IFB strip
+random_lang_no,248,3.10% translation required later
+random_lang_fr,204,2.55% translation required later
+random_lang_ja,174,2.17% translation required later
+random_lang_af,135,1.69% translation required later
+random_lang_nl,125,1.56% translation required later
+random_lang_tr,72,0.90% translation required later
+random_lang_ca,59,0.74% translation required later
+random_lang_de,45,0.56% translation required later
+random_lang_es,35,0.44% translation required later
+random_lang_id,35,0.44% translation required later
+random_lang_it,29,0.36% translation required later
+random_lang_so,25,0.31% translation required later
+random_lang_da,21,0.26% translation required later
+random_lang_sv,20,0.25% translation required later
+random_lang_et,19,0.24% translation required later
+random_lang_pt,13,0.16% translation required later
+random_lang_ar,10,0.12% translation required later
+random_lang_fi,7,0.09% translation required later
+random_lang_ro,6,0.07% translation required later
+random_lang_tl,6,0.07% translation required later
+random_lang_cy,5,0.06% translation required later
+random_lang_sw,5,0.06% translation required later
+random_lang_vi,4,0.05% translation required later
+random_lang_sl,4,0.05% translation required later
+random_lang_hr,3,0.04% translation required later
+random_lang_hi,3,0.04% translation required later
+random_lang_sq,3,0.04% translation required later
+random_lang_sk,3,0.04% translation required later
+random_lang_zh,3,0.04% translation required later
+random_lang_ur,2,0.03% translation required later
+random_lang_ru,1,0.01% translation required later
+stratified_status_detected,1474,
+stratified_status_ifb_dominated,1027,
+stratified_status_low_confidence,191,
+stratified_status_script_override,42,
+stratified_nlp_retain,1106,
+stratified_nlp_exclude_ifb_boilerplate,1027,
+stratified_nlp_hold_for_translation,481,
+stratified_nlp_retain_sentiment_exclude_topics,118,
+stratified_nlp_exclude_too_short,2,

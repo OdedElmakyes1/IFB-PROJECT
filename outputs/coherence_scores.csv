@@ -1,0 +1,16 @@
+﻿configuration_name,min_topic_size,n_neighbors,n_topics,Topic_num,coherence,coherence_cv,diversity,outlier_pct,selected
+C1_min40_nn15_nc5_uni,40,15,183,183,0.5273,0.5273,0.6419,48.64,rejected
+C2_min50_nn15_nc5_uni,50,15,144,144,0.501,0.501,0.6568,51.42,rejected
+C3_min80_nn15_nc5_uni,80,15,94,94,0.4677,0.4677,0.7437,53.53,rejected
+C4_min50_nn10_nc5_uni,50,10,170,170,0.505,0.505,0.6564,48.7,rejected
+C5_min50_nn30_nc5_uni,50,30,142,142,0.5128,0.5128,0.6309,53.63,rejected
+C6_min50_nn15_nc5_bi,50,15,138,138,0.5219,0.5219,0.6689,48.85,rejected
+C7_min50_nn15_nc8_uni,50,15,140,140,0.4924,0.4924,0.6714,51.28,rejected
+C8_min50_nn15_reduce,50,15,148,148,0.5027,0.5027,0.7165,0.0,rejected
+C9_l12_min50_nn15,50,15,145,145,0.5192,0.5192,0.6512,50.59,rejected
+C10_min200_nn15,200,15,4,4,0.6955,0.6955,1.0,3.93,rejected
+C11_min300_nn15,300,15,4,4,0.6942,0.6942,1.0,4.1,rejected
+C12_min80_reduce_nt20,80,15,20,20,0.3887,0.3887,0.82,0.0,rejected
+C13_min50_nn30_reduce_nt24,50,30,24,24,0.4353,0.4353,0.8208,0.0,selected
+C14_min150_reduce,150,15,5,5,0.7245,0.7245,0.88,0.0,rejected
+C15_min200_reduce_nt18,200,15,4,4,0.7417,0.7417,1.0,0.0,rejected

@@ -1,0 +1,14 @@
+﻿reason,n
+min_entity_chars,3
+min_entity_posts,20
+max_entities_per_post,8
+min_edge_weight,5
+pair_rows_before_filter,83438
+pair_rows_dropped_short_entity,7558
+pair_rows_dropped_self_pair,136
+pair_rows_after_filter,75744
+candidate_edges,31840
+edges_below_min_weight,29262
+final_edges,2578
+graph_nodes,1076
+graph_edges,2578

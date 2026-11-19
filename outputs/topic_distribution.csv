@@ -1,0 +1,20 @@
+﻿topic_id,topic_name,n_raw,percentage,n_keyword,n_timeline,outlier_flag
+0,"Twitter chatter, retweets, and livestreams",183189,24.6572,62870,120319,0
+-1,Outliers / too little topic signal,171543,23.0897,46974,124569,1
+1,Trump / voting talk mixed with music promo,79454,10.6945,27735,51719,0
+4,Please-DM / help requests,70757,9.5239,20785,49972,0
+2,Everyday conversation,34772,4.6803,11154,23618,0
+6,Sports (NBA / NFL),34405,4.6309,17544,16861,0
+8,Football mixed with flat-earth chatter,23721,3.1928,8759,14962,0
+7,Faith and prayer,23632,3.1809,8866,14766,0
+9,Instagram photography hashtags,21219,2.8561,9141,12078,0
+15,Dogs and city chatter,17880,2.4066,5643,12237,0
+11,Digital marketing hashtags,14506,1.9525,4778,9728,0
+14,Nigeria talk and Pokémon GO coordinates,13486,1.8152,3393,10093,0
+13,Giveaways and contests,11626,1.5649,5429,6197,0
+10,Arguments about truth and lying,11268,1.5167,2808,8460,0
+16,Templated ‘every minute’ / kindly spam,9007,1.2123,2930,6077,0
+17,Crypto / NFTs,7453,1.0032,1542,5911,0
+12,COVID vaccines and Instagram identity hashtags,7008,0.9433,2992,4016,0
+21,K-pop (BTS / Jimin),6132,0.8254,691,5441,0
+19,China and climate change,1884,0.2536,183,1701,0

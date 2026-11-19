@@ -1,0 +1,23 @@
+metric,value,notes
+rng_seed,2026,
+qa_db_untouched,nlp_working_sample.db,not the analysis corpus
+n_keyword_nlp,244221,census of eligible keyword tweets
+n_timeline_nlp,500000,stratified LANG=en target 500000
+n_nlp_posts_total,744221,
+n_nlp_users,35256,
+n_users_with_keyword_nlp,30707,
+n_users_with_timeline_nlp,24620,
+n_english_timeline_population,29573764,LANG=en
+activity_tertile_low_max,34,en timeline posts
+activity_tertile_mid_max,445,
+n_timeline_strata,174,quarter x activity
+keyword_date_min,2019-01-01T00:42:03,
+keyword_date_max,2023-01-05T23:59:10,
+timeline_sample_date_min,2007-05-23T15:48:46,
+timeline_sample_date_max,2023-11-29T18:20:38,
+benchmark_rows,5000,
+benchmark_seconds,22.37,
+benchmark_ms_per_row,4.474,includes langdetect
+langdetect_false_friends_in_benchmark,388,"af,ca,cy,da,et,fi,hr,nl,no,ro,sk,sl,so,sq,sv,sw,tl,vi"
+langdetect_en_in_benchmark,2894,
+corpus_db,data/nlp_analysis_corpus.db,SQLite not CSV

@@ -1,0 +1,29 @@
+﻿corpus,emotion_label,n_raw,share_raw,n_weighted,share_weighted,notes
+keyword_tweets,joy,12933,0.052957,,,census; sample_weight=1
+keyword_tweets,anger,1290,0.005282,,,census; sample_weight=1
+keyword_tweets,sadness,270,0.001106,,,census; sample_weight=1
+keyword_tweets,fear,284,0.001163,,,census; sample_weight=1
+keyword_tweets,surprise,67,0.000274,,,census; sample_weight=1
+keyword_tweets,disgust,2441,0.009995,,,census; sample_weight=1
+keyword_tweets,others,226932,0.929223,,,census; sample_weight=1
+timeline_raw,joy,36734,0.073656,,,unweighted sample rows
+timeline_raw,anger,6879,0.013793,,,unweighted sample rows
+timeline_raw,sadness,3490,0.006998,,,unweighted sample rows
+timeline_raw,fear,1259,0.002524,,,unweighted sample rows
+timeline_raw,surprise,1759,0.003527,,,unweighted sample rows
+timeline_raw,disgust,23035,0.046188,,,unweighted sample rows
+timeline_raw,others,425569,0.853314,,,unweighted sample rows
+timeline_weighted,joy,36734,0.073656,2172623.7086,0.073652,Horvitz-Thompson English timeline
+timeline_weighted,anger,6879,0.013793,406884.775,0.013793,Horvitz-Thompson English timeline
+timeline_weighted,sadness,3490,0.006998,206438.6676,0.006998,Horvitz-Thompson English timeline
+timeline_weighted,fear,1259,0.002524,74470.3874,0.002525,Horvitz-Thompson English timeline
+timeline_weighted,surprise,1759,0.003527,104046.055,0.003527,Horvitz-Thompson English timeline
+timeline_weighted,disgust,23035,0.046188,1362518.4874,0.04619,Horvitz-Thompson English timeline
+timeline_weighted,others,425569,0.853314,25171369.4054,0.853314,Horvitz-Thompson English timeline
+combined_unweighted,joy,49667,0.066852,,,mixed sampling frames; not one population
+combined_unweighted,anger,8169,0.010995,,,mixed sampling frames; not one population
+combined_unweighted,sadness,3760,0.005061,,,mixed sampling frames; not one population
+combined_unweighted,fear,1543,0.002077,,,mixed sampling frames; not one population
+combined_unweighted,surprise,1826,0.002458,,,mixed sampling frames; not one population
+combined_unweighted,disgust,25476,0.034291,,,mixed sampling frames; not one population
+combined_unweighted,others,652501,0.878266,,,mixed sampling frames; not one population

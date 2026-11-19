@@ -1,0 +1,20 @@
+{
+  "canonical_edge_key": "unordered (entity_a, entity_b) canonical entity names",
+  "canonical_node_key": "canonical entity name; category is a node attribute (modal category)",
+  "min_entity_chars": 3,
+  "min_edge_weight": 5,
+  "seed": 2026,
+  "graph_nodes": 1076,
+  "graph_edges": 2578,
+  "edge_rows": 2578,
+  "edge_rows_equal_graph_edges": true,
+  "self_loops": 0,
+  "entities_cleaned_rows": 255139,
+  "entities_cleaned_dropped_short": 1352,
+  "pair_rows": 75744,
+  "pair_rows_before_filter": 83438,
+  "pair_rows_dropped_short_entity": 7558,
+  "pair_rows_dropped_self_pair": 136,
+  "ner_rerun": false,
+  "issues": []
+}

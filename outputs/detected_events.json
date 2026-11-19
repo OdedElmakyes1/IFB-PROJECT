@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2022-03-01",
+    "name": "E01 fear",
+    "short_name": "E01 fear",
+    "color": "#9467bd",
+    "source": "keyword_tweets"
+  },
+  {
+    "date": "2022-11-21",
+    "name": "E02 joy",
+    "short_name": "E02 joy",
+    "color": "#2ca02c",
+    "source": "keyword_tweets"
+  },
+  {
+    "date": "2022-02-21",
+    "name": "E03 fear",
+    "short_name": "E03 fear",
+    "color": "#9467bd",
+    "source": "timeline"
+  },
+  {
+    "date": "2021-11-22",
+    "name": "E04 joy",
+    "short_name": "E04 joy",
+    "color": "#2ca02c",
+    "source": "timeline"
+  }
+]

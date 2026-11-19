@@ -1,0 +1,85 @@
+﻿corpus,sentiment_label,emotion_label,n_raw,row_share_raw,n_weighted,row_share_weighted,notes
+keyword_tweets,positive,joy,12213,0.249785,,,row shares are P(emotion | sentiment)
+keyword_tweets,positive,anger,9,0.000184,,,row shares are P(emotion | sentiment)
+keyword_tweets,positive,sadness,13,0.000266,,,row shares are P(emotion | sentiment)
+keyword_tweets,positive,fear,2,4.1e-05,,,row shares are P(emotion | sentiment)
+keyword_tweets,positive,surprise,32,0.000654,,,row shares are P(emotion | sentiment)
+keyword_tweets,positive,disgust,24,0.000491,,,row shares are P(emotion | sentiment)
+keyword_tweets,positive,others,36601,0.748579,,,row shares are P(emotion | sentiment)
+keyword_tweets,neutral,joy,711,0.003847,,,row shares are P(emotion | sentiment)
+keyword_tweets,neutral,anger,286,0.001548,,,row shares are P(emotion | sentiment)
+keyword_tweets,neutral,sadness,69,0.000373,,,row shares are P(emotion | sentiment)
+keyword_tweets,neutral,fear,219,0.001185,,,row shares are P(emotion | sentiment)
+keyword_tweets,neutral,surprise,31,0.000168,,,row shares are P(emotion | sentiment)
+keyword_tweets,neutral,disgust,840,0.004545,,,row shares are P(emotion | sentiment)
+keyword_tweets,neutral,others,182648,0.988334,,,row shares are P(emotion | sentiment)
+keyword_tweets,negative,joy,9,0.000856,,,row shares are P(emotion | sentiment)
+keyword_tweets,negative,anger,995,0.094591,,,row shares are P(emotion | sentiment)
+keyword_tweets,negative,sadness,188,0.017872,,,row shares are P(emotion | sentiment)
+keyword_tweets,negative,fear,63,0.005989,,,row shares are P(emotion | sentiment)
+keyword_tweets,negative,surprise,4,0.00038,,,row shares are P(emotion | sentiment)
+keyword_tweets,negative,disgust,1577,0.149919,,,row shares are P(emotion | sentiment)
+keyword_tweets,negative,others,7683,0.730393,,,row shares are P(emotion | sentiment)
+timeline_raw,positive,joy,33893,0.393912,2004555.6346,0.393889,row shares are P(emotion | sentiment)
+timeline_raw,positive,anger,14,0.000163,828.0702,0.000163,row shares are P(emotion | sentiment)
+timeline_raw,positive,sadness,286,0.003324,16917.291,0.003324,row shares are P(emotion | sentiment)
+timeline_raw,positive,fear,14,0.000163,828.0798,0.000163,row shares are P(emotion | sentiment)
+timeline_raw,positive,surprise,379,0.004405,22417.9711,0.004405,row shares are P(emotion | sentiment)
+timeline_raw,positive,disgust,132,0.001534,7807.7388,0.001534,row shares are P(emotion | sentiment)
+timeline_raw,positive,others,51324,0.596499,3035784.2213,0.596522,row shares are P(emotion | sentiment)
+timeline_raw,neutral,joy,2677,0.007837,158367.5443,0.007839,row shares are P(emotion | sentiment)
+timeline_raw,neutral,anger,972,0.002846,57493.0532,0.002846,row shares are P(emotion | sentiment)
+timeline_raw,neutral,sadness,1360,0.003982,80449.8042,0.003982,row shares are P(emotion | sentiment)
+timeline_raw,neutral,fear,737,0.002158,43594.6747,0.002158,row shares are P(emotion | sentiment)
+timeline_raw,neutral,surprise,1079,0.003159,63823.8597,0.003159,row shares are P(emotion | sentiment)
+timeline_raw,neutral,disgust,5786,0.016939,342240.4269,0.01694,row shares are P(emotion | sentiment)
+timeline_raw,neutral,others,328962,0.96308,19457213.9719,0.963077,row shares are P(emotion | sentiment)
+timeline_raw,negative,joy,164,0.002306,9700.5297,0.002306,row shares are P(emotion | sentiment)
+timeline_raw,negative,anger,5893,0.082872,348563.6517,0.082872,row shares are P(emotion | sentiment)
+timeline_raw,negative,sadness,1844,0.025932,109071.5724,0.025932,row shares are P(emotion | sentiment)
+timeline_raw,negative,fear,508,0.007144,30047.6329,0.007144,row shares are P(emotion | sentiment)
+timeline_raw,negative,surprise,301,0.004233,17804.2242,0.004233,row shares are P(emotion | sentiment)
+timeline_raw,negative,disgust,17117,0.240712,1012470.3217,0.240719,row shares are P(emotion | sentiment)
+timeline_raw,negative,others,45283,0.636802,2678371.2123,0.636793,row shares are P(emotion | sentiment)
+timeline_weighted,positive,joy,33893,0.393912,2004555.6346,0.393889,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,positive,anger,14,0.000163,828.0702,0.000163,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,positive,sadness,286,0.003324,16917.291,0.003324,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,positive,fear,14,0.000163,828.0798,0.000163,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,positive,surprise,379,0.004405,22417.9711,0.004405,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,positive,disgust,132,0.001534,7807.7388,0.001534,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,positive,others,51324,0.596499,3035784.2213,0.596522,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,neutral,joy,2677,0.007837,158367.5443,0.007839,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,neutral,anger,972,0.002846,57493.0532,0.002846,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,neutral,sadness,1360,0.003982,80449.8042,0.003982,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,neutral,fear,737,0.002158,43594.6747,0.002158,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,neutral,surprise,1079,0.003159,63823.8597,0.003159,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,neutral,disgust,5786,0.016939,342240.4269,0.01694,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,neutral,others,328962,0.96308,19457213.9719,0.963077,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,negative,joy,164,0.002306,9700.5297,0.002306,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,negative,anger,5893,0.082872,348563.6517,0.082872,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,negative,sadness,1844,0.025932,109071.5724,0.025932,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,negative,fear,508,0.007144,30047.6329,0.007144,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,negative,surprise,301,0.004233,17804.2242,0.004233,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,negative,disgust,17117,0.240712,1012470.3217,0.240719,weighted P(emotion | sentiment) for English timeline
+timeline_weighted,negative,others,45283,0.636802,2678371.2123,0.636793,weighted P(emotion | sentiment) for English timeline
+combined_unweighted,positive,joy,46106,0.341688,,,row shares are P(emotion | sentiment)
+combined_unweighted,positive,anger,23,0.00017,,,row shares are P(emotion | sentiment)
+combined_unweighted,positive,sadness,299,0.002216,,,row shares are P(emotion | sentiment)
+combined_unweighted,positive,fear,16,0.000119,,,row shares are P(emotion | sentiment)
+combined_unweighted,positive,surprise,411,0.003046,,,row shares are P(emotion | sentiment)
+combined_unweighted,positive,disgust,156,0.001156,,,row shares are P(emotion | sentiment)
+combined_unweighted,positive,others,87925,0.651605,,,row shares are P(emotion | sentiment)
+combined_unweighted,neutral,joy,3388,0.006436,,,row shares are P(emotion | sentiment)
+combined_unweighted,neutral,anger,1258,0.00239,,,row shares are P(emotion | sentiment)
+combined_unweighted,neutral,sadness,1429,0.002715,,,row shares are P(emotion | sentiment)
+combined_unweighted,neutral,fear,956,0.001816,,,row shares are P(emotion | sentiment)
+combined_unweighted,neutral,surprise,1110,0.002109,,,row shares are P(emotion | sentiment)
+combined_unweighted,neutral,disgust,6626,0.012588,,,row shares are P(emotion | sentiment)
+combined_unweighted,neutral,others,511610,0.971946,,,row shares are P(emotion | sentiment)
+combined_unweighted,negative,joy,173,0.002119,,,row shares are P(emotion | sentiment)
+combined_unweighted,negative,anger,6888,0.084382,,,row shares are P(emotion | sentiment)
+combined_unweighted,negative,sadness,2032,0.024893,,,row shares are P(emotion | sentiment)
+combined_unweighted,negative,fear,571,0.006995,,,row shares are P(emotion | sentiment)
+combined_unweighted,negative,surprise,305,0.003736,,,row shares are P(emotion | sentiment)
+combined_unweighted,negative,disgust,18694,0.229012,,,row shares are P(emotion | sentiment)
+combined_unweighted,negative,others,52966,0.648863,,,row shares are P(emotion | sentiment)

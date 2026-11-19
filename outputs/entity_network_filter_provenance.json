@@ -1,0 +1,14 @@
+{
+  "rule": "drop any co-occurrence pair whose endpoint is shorter than 3 characters, and any self-pair (entity_a == entity_b)",
+  "applied_by": "src/postaudit_rebuild_entity_network.py",
+  "pair_rows_before_filter": 83438,
+  "pair_rows_dropped_short_entity": 7558,
+  "pair_rows_dropped_self_pair": 136,
+  "pair_rows_after_filter": 75744,
+  "entities_cleaned_rows_before_filter": 256491,
+  "entities_cleaned_dropped_short": 1352,
+  "entities_cleaned_rows_after_filter": 255139,
+  "kept_mentions_shorter_than_3_chars": 21517,
+  "dropped_entity_names_listed_in": "outputs/entities_dropped_short.csv",
+  "note": "The drop rule is deterministic, so the dropped pair rows are fully characterised by this rule plus the entity list in entities_dropped_short.csv. entities_extracted.csv is left unfiltered on purpose: it is the raw extraction record, and the 3-character rule applies to the graded cleaned/network outputs."
+}

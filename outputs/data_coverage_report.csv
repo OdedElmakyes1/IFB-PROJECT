@@ -1,0 +1,23 @@
+metric,group,n_users,n_posts,notes
+table_size,authors,576190,576190,row count; AUTHOR_ID is not unique
+table_size,authors_unique_AUTHOR_ID,574971,0,CAST(AUTHOR_ID AS TEXT)
+table_size,tweets,2112872,7136885,users=unique AUTHOR_ID; posts=all keyword tweets
+table_size,timeline,40448,44968185,users=unique AUTHOR_ID; posts=all timeline tweets
+tweets_authors_vs_authors,matched,574971,3231249,keyword-tweet authors present in authors table; n_posts = keyword tweets
+tweets_authors_vs_authors,unmatched,1537901,3905636,keyword-tweet authors with no authors-table metadata
+timeline_authors_vs_authors,matched,39631,38026664,timeline authors present in authors table; n_posts = timeline tweets
+timeline_authors_vs_authors,unmatched,817,6941521,timeline authors with no authors-table metadata
+tweets_authors_vs_timeline_authors,matched,39759,1199479,authors in both tweets and timeline; n_posts = keyword tweets from those users
+tweets_authors_vs_timeline_authors,unmatched_tweets_only,2073113,5937406,keyword-tweet authors with no timeline rows; n_posts = keyword tweets
+timeline_authors_vs_tweets_authors,matched,39759,40594872,same user overlap as tweets∩timeline; n_posts = timeline tweets from those users
+timeline_authors_vs_tweets_authors,unmatched_timeline_only,689,4373313,timeline authors with no keyword tweets; n_posts = timeline tweets
+authors_table_vs_tweets,authors_not_in_tweets,0,0,authors-table IDs that never appear in tweets
+authors_table_vs_timeline,authors_not_in_timeline,535340,0,authors-table IDs that never appear in timeline
+triple_intersection,authors_and_tweets_and_timeline,39631,1198277,"n_posts=keyword tweets; timeline posts=38,026,664"
+triple_intersection,unambiguous_AUTHOR_ID_only,38576,1129607,"excludes duplicate AUTHOR_ID groups; timeline posts=37,839,416"
+duplicate_authors,ambiguous_AUTHOR_ID_groups,1203,2422,n_users=duplicate ID groups; n_posts=author rows involved. USERNAMEs in a group are distinct.
+duplicate_authors,ambiguous_ids_in_tweets,1203,77465,duplicate AUTHOR_IDs that also appear in tweets; n_posts=keyword tweets
+duplicate_authors,ambiguous_ids_in_timeline,1055,187248,duplicate AUTHOR_IDs that also appear in timeline; n_posts=timeline tweets
+identifier_quality,unique_USERNAME_in_authors,576190,0,"USERNAME is unique per authors row (n_posts=duplicate username rows, should be 0)"
+identifier_quality,duplicate_groups_distinct_usernames,1203,0,n_users=groups with different usernames; n_posts=groups with identical username
+identifier_quality,duplicate_groups_same_CREATED_AT,1203,3,n_users=groups sharing account CREATED_AT; n_posts=max group size

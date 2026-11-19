@@ -1,0 +1,12 @@
+﻿metric,value
+n_corpus,742942
+n_selected,4
+n_evidence,31
+n_stat_candidates,68
+n_candidates_total,7392
+date_min,2007-05-23T15:48:46
+date_max,2023-11-29T18:20:38
+E01_window_n,3720
+E02_window_n,597
+E03_window_n,3553
+E04_window_n,2075

@@ -1,0 +1,24 @@
+metric,value,notes
+n_users,38576,unambiguous triple intersection
+n_posts,38969023,keyword + timeline
+n_keyword_tweets,1129607,keyword_tweets
+n_timeline_tweets,37839416,timeline
+n_users_with_keyword_tweets,38576,
+n_ambiguous_author_id_groups_excluded,1203,
+authors_table_rows_scanned,576190,
+timeline_rows_scanned,44968185,
+keyword_rows_scanned,7136885,
+timeline_excluded_not_primary,7128769,includes ambiguous and non-authors
+timeline_excluded_bad_date,0,
+keyword_excluded_not_primary,6007278,
+keyword_excluded_bad_date,0,
+cross_source_duplicate_tweet_ids,42371,kept in both sources
+keyword_date_min,2019-01-01T00:13:46,ISO
+keyword_date_max,2023-01-05T23:59:10,ISO
+timeline_date_min,2007-05-11T22:13:23,ISO
+timeline_date_max,2023-12-03T04:50:17,ISO
+corpus_date_min,2007-05-11T22:13:23,ISO
+corpus_date_max,2023-12-03T04:50:17,ISO
+keyword_lang_sample_rows,2734,for later language detection
+inspection_sample_rows,2200,analysis_corpus_sample.csv
+corpus_db_path,data\analysis_corpus.db,"SQLite, not a full CSV dump"

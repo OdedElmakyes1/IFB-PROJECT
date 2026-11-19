@@ -1,0 +1,13 @@
+﻿corpus,sentiment_label,n_raw,share_raw,n_weighted,share_weighted,notes
+keyword_tweets,positive,48894,0.200207,,,census; sample_weight=1; weighted omitted
+keyword_tweets,neutral,184804,0.75672,,,census; sample_weight=1; weighted omitted
+keyword_tweets,negative,10519,0.043072,,,census; sample_weight=1; weighted omitted
+timeline_raw,positive,86042,0.172524,,,unweighted sample rows; not a population estimate
+timeline_raw,neutral,341573,0.684892,,,unweighted sample rows; not a population estimate
+timeline_raw,negative,71110,0.142584,,,unweighted sample rows; not a population estimate
+timeline_weighted,positive,86042,0.172524,5089139.0067,0.172523,Horvitz-Thompson; English timeline population
+timeline_weighted,neutral,341573,0.684892,20203183.3349,0.684892,Horvitz-Thompson; English timeline population
+timeline_weighted,negative,71110,0.142584,4206029.1449,0.142585,Horvitz-Thompson; English timeline population
+combined_unweighted,positive,134936,0.181624,,,keyword census + timeline sample mixed; not one population
+combined_unweighted,neutral,526377,0.708503,,,keyword census + timeline sample mixed; not one population
+combined_unweighted,negative,81629,0.109873,,,keyword census + timeline sample mixed; not one population

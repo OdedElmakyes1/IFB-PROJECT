@@ -1,0 +1,16 @@
+﻿configuration_name,embedding_model,min_topic_size,n_neighbors,n_components,ngram,reduce_outliers,nr_topics_target,sample_size,n_topics,Topic_num,outlier_count,outlier_pct,topic_size_min,topic_size_median,topic_size_max,coherence,coherence_cv,diversity,ifb_topword_hits,ifb_topwords,runtime_sec,rss_mb_delta,memory_runtime_notes,selected,reject_reason
+C1_min40_nn15_nc5_uni,all-MiniLM-L6-v2,40,15,5,1-1,0,,64000,183,183,31130,48.64,,,,0.5273,0.5273,0.6419,0,,130.2,,prior grid on same 64k sample,rejected,too_many_topics_hard_to_name
+C2_min50_nn15_nc5_uni,all-MiniLM-L6-v2,50,15,5,1-1,0,,64000,144,144,32909,51.42,,,,0.501,0.501,0.6568,0,,96.9,,prior grid on same 64k sample,rejected,too_many_topics_hard_to_name
+C3_min80_nn15_nc5_uni,all-MiniLM-L6-v2,80,15,5,1-1,0,,64000,94,94,34259,53.53,,,,0.4677,0.4677,0.7437,0,,96.9,,prior grid on same 64k sample,rejected,too_many_topics_hard_to_name
+C4_min50_nn10_nc5_uni,all-MiniLM-L6-v2,50,10,5,1-1,0,,64000,170,170,31168,48.7,,,,0.505,0.505,0.6564,0,,83.5,,prior grid on same 64k sample,rejected,too_many_topics_hard_to_name
+C5_min50_nn30_nc5_uni,all-MiniLM-L6-v2,50,30,5,1-1,0,,64000,142,142,34323,53.63,,,,0.5128,0.5128,0.6309,0,,120.9,,prior grid on same 64k sample,rejected,too_many_topics_hard_to_name
+C6_min50_nn15_nc5_bi,all-MiniLM-L6-v2,50,15,5,1-2,0,,64000,138,138,31264,48.85,,,,0.5219,0.5219,0.6689,0,,83.3,,prior grid on same 64k sample,rejected,too_many_topics_hard_to_name
+C7_min50_nn15_nc8_uni,all-MiniLM-L6-v2,50,15,8,1-1,0,,64000,140,140,32819,51.28,,,,0.4924,0.4924,0.6714,0,,95.6,,prior grid on same 64k sample,rejected,too_many_topics_hard_to_name
+C8_min50_nn15_reduce,all-MiniLM-L6-v2,50,15,5,1-1,1,,64000,148,148,0,0.0,,,,0.5027,0.5027,0.7165,0,,90.9,,reduce_outliers embeddings; still too many topics to name,rejected,too_many_topics_hard_to_name
+C9_l12_min50_nn15,all-MiniLM-L12-v2,50,15,5,1-1,0,,64000,145,145,32378,50.59,,,,0.5192,0.5192,0.6512,0,,76.4,,second embedding model on same 64k docs,rejected,too_many_topics_hard_to_name
+C10_min200_nn15,all-MiniLM-L6-v2,200,15,5,1-1,0,,64000,4,4,2513,3.93,507,610,59759,0.6955,0.6955,1.0,0,,241.0,-581.0,"tune N=64,000; seed=2026; GPU MiniLM batches=96",rejected,too_few_topics
+C11_min300_nn15,all-MiniLM-L6-v2,300,15,5,1-1,0,,64000,4,4,2623,4.1,360,615,59787,0.6942,0.6942,1.0,0,,172.4,-437.7,"tune N=64,000; seed=2026; GPU MiniLM batches=96",rejected,too_few_topics
+C12_min80_reduce_nt20,all-MiniLM-L6-v2,80,15,5,1-1,1,20,64000,20,20,0,0.0,137,1006,17950,0.3887,0.3887,0.82,0,,122.5,311.2,"tune N=64,000; seed=2026; GPU MiniLM batches=96",rejected,outranked_by_coherence_plus_interpretability
+C13_min50_nn30_reduce_nt24,all-MiniLM-L6-v2,50,30,5,1-1,1,24,64000,24,24,0,0.0,76,1000,15329,0.4353,0.4353,0.8208,0,,193.1,-35.4,"tune N=64,000; seed=2026; GPU MiniLM batches=96",selected,
+C14_min150_reduce,all-MiniLM-L6-v2,150,15,5,1-1,1,,64000,5,5,0,0.0,348,712,60090,0.7245,0.7245,0.88,0,,132.1,289.9,"tune N=64,000; seed=2026; GPU MiniLM batches=96",rejected,too_few_topics
+C15_min200_reduce_nt18,all-MiniLM-L6-v2,200,15,5,1-1,1,18,64000,4,4,0,0.0,593,1652,60102,0.7417,0.7417,1.0,0,,147.0,439.6,"tune N=64,000; seed=2026; GPU MiniLM batches=96",rejected,too_few_topics

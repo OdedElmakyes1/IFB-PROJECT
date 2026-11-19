@@ -1,0 +1,150 @@
+source,feature,value,n,pct,notes
+tweets_keyword_stratified,sample_size,43955,43955,100.0,reservoir / stratified
+tweets_keyword_stratified,empty_text,0,0,0.0,
+tweets_keyword_stratified,contains_hashtag,14582,14582,33.1748,regex (?<!\w)#\w+
+tweets_keyword_stratified,contains_mention,28278,28278,64.334,regex (?<!\w)@\w+
+tweets_keyword_stratified,contains_url,11414,11414,25.9675,regex https?://
+tweets_keyword_stratified,retweet_indicator,19,19,0.0432,text starts with RT @
+tweets_keyword_stratified,mean_hashtags_per_post,2.4826,43955,,
+tweets_keyword_stratified,median_hashtags_per_post,0,43955,,
+tweets_keyword_stratified,mean_mentions_per_post,1.744,43955,,
+tweets_keyword_stratified,median_mentions_per_post,1,43955,,
+tweets_keyword_stratified,mean_urls_per_post,0.3248,43955,,
+tweets_keyword_stratified,mean_chars,132.35,43955,,
+tweets_keyword_stratified,median_chars,105,43955,,
+tweets_keyword_stratified,mean_tokens,18.01,43955,,whitespace split
+tweets_keyword_stratified,median_tokens,14,43955,,whitespace split
+tweets_keyword_stratified,exact_duplicate_extra_rows,3615,3615,8.2243,within sample only
+tweets_keyword_stratified,exact_duplicate_groups,1330,1330,,within sample only
+tweets_keyword_stratified,normalized_duplicate_extra_rows,3883,3883,8.834,lowercased / collapsed whitespace; sample only
+tweets_keyword_stratified,normalized_duplicate_groups,1341,1341,,sample only
+timeline_lang_stratified,sample_size,40000,40000,100.0,reservoir / stratified
+timeline_lang_stratified,empty_text,0,0,0.0,
+timeline_lang_stratified,contains_hashtag,5614,5614,14.035,regex (?<!\w)#\w+
+timeline_lang_stratified,contains_mention,29404,29404,73.51,regex (?<!\w)@\w+
+timeline_lang_stratified,contains_url,13644,13644,34.11,regex https?://
+timeline_lang_stratified,retweet_indicator,8724,8724,21.81,text starts with RT @
+timeline_lang_stratified,mean_hashtags_per_post,0.3561,40000,,
+timeline_lang_stratified,median_hashtags_per_post,0.0,40000,,
+timeline_lang_stratified,mean_mentions_per_post,1.2439,40000,,
+timeline_lang_stratified,median_mentions_per_post,1.0,40000,,
+timeline_lang_stratified,mean_urls_per_post,0.372,40000,,
+timeline_lang_stratified,mean_chars,86.82,40000,,
+timeline_lang_stratified,median_chars,65.0,40000,,
+timeline_lang_stratified,mean_tokens,12.51,40000,,whitespace split
+timeline_lang_stratified,median_tokens,9.0,40000,,whitespace split
+timeline_lang_stratified,exact_duplicate_extra_rows,154,154,0.385,within sample only
+timeline_lang_stratified,exact_duplicate_groups,94,94,,within sample only
+timeline_lang_stratified,normalized_duplicate_extra_rows,164,164,0.41,lowercased / collapsed whitespace; sample only
+timeline_lang_stratified,normalized_duplicate_groups,99,99,,sample only
+timeline_english,sample_size,20000,20000,100.0,reservoir / stratified
+timeline_english,empty_text,0,0,0.0,
+timeline_english,contains_hashtag,2936,2936,14.68,regex (?<!\w)#\w+
+timeline_english,contains_mention,14514,14514,72.57,regex (?<!\w)@\w+
+timeline_english,contains_url,6088,6088,30.44,regex https?://
+timeline_english,retweet_indicator,4943,4943,24.715,text starts with RT @
+timeline_english,mean_hashtags_per_post,0.3487,20000,,
+timeline_english,median_hashtags_per_post,0.0,20000,,
+timeline_english,mean_mentions_per_post,1.1973,20000,,
+timeline_english,median_mentions_per_post,1.0,20000,,
+timeline_english,mean_urls_per_post,0.3397,20000,,
+timeline_english,mean_chars,109.18,20000,,
+timeline_english,median_chars,96.0,20000,,
+timeline_english,mean_tokens,16.93,20000,,whitespace split
+timeline_english,median_tokens,14.0,20000,,whitespace split
+timeline_english,exact_duplicate_extra_rows,5,5,0.025,within sample only
+timeline_english,exact_duplicate_groups,5,5,,within sample only
+timeline_english,normalized_duplicate_extra_rows,5,5,0.025,lowercased / collapsed whitespace; sample only
+timeline_english,normalized_duplicate_groups,5,5,,sample only
+timeline_other_language,sample_size,12000,12000,100.0,reservoir / stratified
+timeline_other_language,empty_text,0,0,0.0,
+timeline_other_language,contains_hashtag,1961,1961,16.3417,regex (?<!\w)#\w+
+timeline_other_language,contains_mention,8028,8028,66.9,regex (?<!\w)@\w+
+timeline_other_language,contains_url,3956,3956,32.9667,regex https?://
+timeline_other_language,retweet_indicator,2766,2766,23.05,text starts with RT @
+timeline_other_language,mean_hashtags_per_post,0.44,12000,,
+timeline_other_language,median_hashtags_per_post,0.0,12000,,
+timeline_other_language,mean_mentions_per_post,0.9911,12000,,
+timeline_other_language,median_mentions_per_post,1.0,12000,,
+timeline_other_language,mean_urls_per_post,0.3571,12000,,
+timeline_other_language,mean_chars,80.4,12000,,
+timeline_other_language,median_chars,60.0,12000,,
+timeline_other_language,mean_tokens,11.18,12000,,whitespace split
+timeline_other_language,median_tokens,7.0,12000,,whitespace split
+timeline_other_language,exact_duplicate_extra_rows,105,105,0.875,within sample only
+timeline_other_language,exact_duplicate_groups,55,55,,within sample only
+timeline_other_language,normalized_duplicate_extra_rows,108,108,0.9,lowercased / collapsed whitespace; sample only
+timeline_other_language,normalized_duplicate_groups,58,58,,sample only
+timeline_non_linguistic,sample_size,8000,8000,100.0,reservoir / stratified
+timeline_non_linguistic,empty_text,0,0,0.0,
+timeline_non_linguistic,contains_hashtag,717,717,8.9625,regex (?<!\w)#\w+
+timeline_non_linguistic,contains_mention,6862,6862,85.775,regex (?<!\w)@\w+
+timeline_non_linguistic,contains_url,3600,3600,45.0,regex https?://
+timeline_non_linguistic,retweet_indicator,1015,1015,12.6875,text starts with RT @
+timeline_non_linguistic,mean_hashtags_per_post,0.2489,8000,,
+timeline_non_linguistic,median_hashtags_per_post,0.0,8000,,
+timeline_non_linguistic,mean_mentions_per_post,1.7395,8000,,
+timeline_non_linguistic,median_mentions_per_post,1.0,8000,,
+timeline_non_linguistic,mean_urls_per_post,0.475,8000,,
+timeline_non_linguistic,mean_chars,40.51,8000,,
+timeline_non_linguistic,median_chars,31.0,8000,,
+timeline_non_linguistic,mean_tokens,3.46,8000,,whitespace split
+timeline_non_linguistic,median_tokens,2.0,8000,,whitespace split
+timeline_non_linguistic,exact_duplicate_extra_rows,38,38,0.475,within sample only
+timeline_non_linguistic,exact_duplicate_groups,30,30,,within sample only
+timeline_non_linguistic,normalized_duplicate_extra_rows,44,44,0.55,lowercased / collapsed whitespace; sample only
+timeline_non_linguistic,normalized_duplicate_groups,33,33,,sample only
+timeline_language_census,lang_bucket_english,34868834,34868834,77.5411,"und/qme/qam/zxx counted as non_linguistic, never as English"
+timeline_language_census,lang_bucket_other_language,5516620,5516620,12.2678,"und/qme/qam/zxx counted as non_linguistic, never as English"
+timeline_language_census,lang_bucket_non_linguistic,4582731,4582731,10.1911,"und/qme/qam/zxx counted as non_linguistic, never as English"
+timeline_language_census,lang_en,34868834,34868834,77.5411,English only
+timeline_language_census,lang_und,1786679,1786679,3.9732,non_linguistic Twitter code; not English
+timeline_language_census,lang_qme,1745270,1745270,3.8811,non_linguistic Twitter code; not English
+timeline_language_census,lang_es,1148815,1148815,2.5547,
+timeline_language_census,lang_zxx,610259,610259,1.3571,non_linguistic Twitter code; not English
+timeline_language_census,lang_in,581046,581046,1.2921,
+timeline_language_census,lang_qam,440523,440523,0.9796,non_linguistic Twitter code; not English
+timeline_language_census,lang_pt,435736,435736,0.969,
+timeline_language_census,lang_tl,432397,432397,0.9616,
+timeline_language_census,lang_ja,384649,384649,0.8554,
+timeline_language_census,lang_fr,289015,289015,0.6427,
+timeline_language_census,lang_ko,235808,235808,0.5244,
+timeline_language_census,lang_hi,164928,164928,0.3668,
+timeline_language_census,lang_ar,161236,161236,0.3586,
+timeline_language_census,lang_de,148808,148808,0.3309,
+timeline_language_census,lang_art,144963,144963,0.3224,
+timeline_language_census,lang_ht,140546,140546,0.3125,
+timeline_language_census,lang_it,134202,134202,0.2984,
+timeline_language_census,lang_tr,106332,106332,0.2365,
+timeline_language_census,lang_et,102558,102558,0.2281,
+timeline_language_census,lang_nl,100124,100124,0.2227,
+timeline_language_census,lang_pl,79614,79614,0.177,
+timeline_language_census,lang_ur,76562,76562,0.1703,
+timeline_language_census,lang_qst,74646,74646,0.166,
+timeline_language_census,lang_qht,70252,70252,0.1562,
+tweets_keywords,distinct_KEYWORD_raw,26,26,,leading/trailing spaces kept
+tweets_keywords,distinct_KEYWORD_trimmed,24,24,,TRIM applied; use this for grouping
+tweets_keywords,keyword::ifb,1057788,1057788,14.8214,trimmed keyword
+tweets_keywords,keyword::follow 4 follow,1035565,1035565,14.51,trimmed keyword
+tweets_keywords,keyword::follow_for_follow_back,1024091,1024091,14.3493,trimmed keyword
+tweets_keywords,keyword::follow for follow,909593,909593,12.745,trimmed keyword
+tweets_keywords,keyword::i follow you back,851893,851893,11.9365,trimmed keyword
+tweets_keywords,keyword::follow-for-follow,610203,610203,8.55,trimmed keyword
+tweets_keywords,keyword::follow-4-follow,411165,411165,5.7611,trimmed keyword
+tweets_keywords,keyword::followforfollow-back,298649,298649,4.1846,trimmed keyword
+tweets_keywords,keyword::followforfollowback,281501,281501,3.9443,trimmed keyword
+tweets_keywords,keyword::follow-you-back,232583,232583,3.2589,trimmed keyword
+tweets_keywords,keyword::Following whoever follows,164851,164851,2.3098,trimmed keyword
+tweets_keywords,keyword::follow me and i follow you,155462,155462,2.1783,trimmed keyword
+tweets_keywords,keyword::Following all that follows,57296,57296,0.8028,trimmed keyword
+tweets_keywords,keyword::follow4follow,26695,26695,0.374,trimmed keyword
+tweets_keywords,keyword::follow-for-follow-back,4542,4542,0.0636,trimmed keyword
+tweets_keywords,keyword::followforfollow,2524,2524,0.0354,trimmed keyword
+tweets_keywords,keyword::follow_for_follow,2485,2485,0.0348,trimmed keyword
+tweets_keywords,keyword::follow_4_follow,2022,2022,0.0283,trimmed keyword
+tweets_keywords,keyword::follow-me-and-i-follow-you,2022,2022,0.0283,trimmed keyword
+tweets_keywords,keyword::followmeandifollowyou,1798,1798,0.0252,trimmed keyword
+tweets_keywords,keyword::i-follow-you-back,1636,1636,0.0229,trimmed keyword
+tweets_keywords,keyword::follow_me_and_i_follow_you,1243,1243,0.0174,trimmed keyword
+tweets_keywords,keyword::i_follow_you_back,1112,1112,0.0156,trimmed keyword
+tweets_keywords,keyword::ifollowyouback,166,166,0.0023,trimmed keyword

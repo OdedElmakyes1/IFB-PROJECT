@@ -1,0 +1,40 @@
+# Pinned to the environment that produced the shipped artifacts (2026-09-12).
+# Install:  python -m pip install -r requirements.txt
+# Then:     python -m spacy download en_core_web_lg
+#           python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
+
+pandas==3.0.3
+numpy==2.4.6
+scipy==1.17.1
+python-dateutil>=2.8.2
+
+pysentimiento==0.7.3
+transformers==5.13.1
+torch==2.13.0
+
+nltk==3.10.0
+spacy==3.8.14
+# spaCy model en_core_web_lg 3.8.0 is installed separately (not a pip name)
+
+bertopic==0.17.4
+sentence-transformers==5.6.0
+umap-learn==0.5.12
+hdbscan==0.8.44
+scikit-learn==1.8.0
+gensim==4.4.0
+
+xgboost==3.2.0
+networkx==3.6.1
+
+matplotlib==3.10.9
+wordcloud==1.9.6
+
+python-docx==1.2.0
+python-pptx==1.0.2
+openpyxl==3.1.5
+
+jupyter==1.1.1
+nbformat==5.10.4
+nbclient==0.11.0
+ipykernel==7.3.0
+IPython>=8.0.0

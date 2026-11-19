@@ -1,0 +1,13 @@
+category,n,pct,notes
+all_keyword_tweets,1129607,100.0,full scan
+ifb_dominated,513390,45.4485,too little signal after IFB/follow strip
+likely_english,575775,50.9713,Latin remainder after IFB strip; not langdetect
+script_non_english,20302,1.7973,Unicode script confirmed
+uncertain,20140,1.7829,mixed/low Latin ratio
+empty,0,0.0,empty original
+duplicate_extra_rows,831377,73.5988,normalized hash extras (count-1)
+duplicate_groups,36381,3.2207,hashes with freq>=2
+boilerplate_posts_freq_ge5,806651,71.4099,all copies excluded from NLP (freq>=5)
+boilerplate_groups_freq_ge5,10503,0.9298,
+eligible_keyword_written,244221,21.62,"likely_english, not boiler, not dup extra, clean>=3"
+eligible_dropped_short_clean,220,0.0195,likely english but clean_text < 3 tokens

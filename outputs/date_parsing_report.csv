@@ -1,0 +1,15 @@
+table,status,n_records,pct,min_parsed,max_parsed,notes
+tweets,TOTAL,7136885,100.0,2019-01-01 00:00:03,2023-01-05 23:59:56,all stored CREATED_AT values
+tweets,PARSE_SUCCESS,7136885,100.0,2019-01-01 00:00:03,2023-01-05 23:59:56,parsed and inside 2006-03-21 .. 2023-12-31
+tweets,EXCLUDED,0,0.0,,,"empty, unparseable, epoch placeholder, before Twitter, or after collection"
+tweets,weekday_yymmdd,7088060,99.3159,2019-01-01 00:00:03,2023-01-05 23:59:56,
+tweets,unix_milliseconds,48825,0.6841,2019-01-01 00:00:03,2023-01-05 23:59:56,
+timeline,TOTAL,44968185,100.0,2007-05-11 22:13:23,2023-12-03 04:50:17,all stored CREATED_AT values
+timeline,PARSE_SUCCESS,44968185,100.0,2007-05-11 22:13:23,2023-12-03 04:50:17,parsed and inside 2006-03-21 .. 2023-12-31
+timeline,EXCLUDED,0,0.0,,,"empty, unparseable, epoch placeholder, before Twitter, or after collection"
+timeline,iso_datetime,44968185,100.0,2007-05-11 22:13:23,2023-12-03 04:50:17,
+authors,TOTAL,576190,100.0,,,all stored CREATED_AT values
+authors,PARSE_SUCCESS,576188,99.9997,,,parsed and inside 2006-03-21 .. 2023-12-31
+authors,EXCLUDED,2,0.0003,,,"empty, unparseable, epoch placeholder, before Twitter, or after collection"
+authors,iso_datetime,576188,99.9997,,,
+authors,placeholder_epoch,2,0.0003,,,

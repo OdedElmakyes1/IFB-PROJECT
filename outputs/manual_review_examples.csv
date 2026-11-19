@@ -1,0 +1,17 @@
+﻿author_id,username,manual_label,reviewer_confidence,evidence_quote,note
+25560403,evernotehelps,likely_normal,high,"Official Evernote support replies with unique how-to text; brand helpdesk, not a follow farm.",Snapshot review; deleted/unavailable not used as a malicious signal.
+1353711855458525188,itsmewillfn,suspicious,medium,Small Fortnite streamer; unique go-live posts but every tweet is followforfollow growth copy.,Snapshot review; deleted/unavailable not used as a malicious signal.
+734616526440046593,ayorgifted,suspicious,medium,"Rapper bio; mention-dumps and 'follow back or suspension' threats. Human voice, IFB behavior.",Snapshot review; deleted/unavailable not used as a malicious signal.
+1167064841900765184,hobidish,suspicious,medium,"K-pop IFB-only posts ('ifb btspoppers only'). Dedicated mutual-hunt, not conversational timeline.",Snapshot review; deleted/unavailable not used as a malicious signal.
+3266781054,Alexandria_says,likely_normal,high,"Personal Cali/mom tweets, TV recaps, self-doubt about class. Ordinary user who RTs friends.",Snapshot review; deleted/unavailable not used as a malicious signal.
+1221234043716423682,juancvv89,likely_malicious,high,53 keyword posts; same PS4live/Twitch template (uniq=0.11). Scripted broadcast spam.,Snapshot review; deleted/unavailable not used as a malicious signal.
+3920593467,Cohenator1,likely_normal,medium,"Reiki/kindness account thanking individual followers. Courteous IFB, original short notes.",Snapshot review; deleted/unavailable not used as a malicious signal.
+1066456766530101248,SteveWizy,likely_malicious,medium,"6 keyword posts, unique_text=0, boilerplate=1. Identical IFB templates; Lagos 'digital marketer' bio.",Snapshot review; deleted/unavailable not used as a malicious signal.
+1315666583533092865,tex_scot,likely_normal,high,"Gen-X Scot in Texas; sports, Ukraine, church critique. Varied original replies.",Snapshot review; deleted/unavailable not used as a malicious signal.
+1432104348,UNIQUESNDS1234,suspicious,medium,"DJ in Tampa; Mixcloud upload looks human, but Instagram follower-mill hashtag walls.",Snapshot review; deleted/unavailable not used as a malicious signal.
+1447119170273824768,Follow_foryou1,likely_malicious,high,Bio: '100% Followback garranty'. IFB_COUNT=74. uniq=0.05. Purpose-built followback machine.,Snapshot review; deleted/unavailable not used as a malicious signal.
+1046183865440718849,barnjunkees,suspicious,medium,Ontario band with original lyrics plus Instagram growth-hashtag dumps.,Snapshot review; deleted/unavailable not used as a malicious signal.
+1024629041318584320,DrealTimah,suspicious,medium,Music-blogger bio but timeline is affiliate clothing/sunglass listings mixed with rap links.,Snapshot review; deleted/unavailable not used as a malicious signal.
+1401023626762088456,OnStageMediaTN,suspicious,high,New Chennai promo page: templated celebrity birthday posts + followforfollowback.,Snapshot review; deleted/unavailable not used as a malicious signal.
+991814822357434368,bmdogger,likely_malicious,high,"Crypto headlines posted on a clock with the same #followme footer. Content mill, not discussion.",Snapshot review; deleted/unavailable not used as a malicious signal.
+69046916,SallyTiger,likely_normal,high,Long-running MAGA mom; unique political posts and even discusses how hard it is to spot bots.,Snapshot review; deleted/unavailable not used as a malicious signal.

@@ -1,0 +1,39 @@
+﻿topic_id,topic_name,source,n_raw,n_weighted,n_positive,n_neutral,n_negative,pct_positive,pct_neutral,pct_negative,w_positive,w_neutral,w_negative,weight_note
+-1,Outliers / too little topic signal,keyword_tweets,46974,46974.0,4554,41453,967,9.69,88.25,2.06,4554.0,41453.0,967.0,"keyword census, weight=1"
+-1,Outliers / too little topic signal,timeline,124569,7368009.89,17597,95447,11525,14.13,76.62,9.25,1040858.36,5645432.92,681718.61,timeline sample_weight estimates English timeline population in this topic
+0,"Twitter chatter, retweets, and livestreams",keyword_tweets,62870,62870.0,13074,46892,2904,20.8,74.59,4.62,13074.0,46892.0,2904.0,"keyword census, weight=1"
+0,"Twitter chatter, retweets, and livestreams",timeline,120319,7116399.32,24376,73111,22832,20.26,60.76,18.98,1441736.68,4324205.01,1350457.63,timeline sample_weight estimates English timeline population in this topic
+1,Trump / voting talk mixed with music promo,keyword_tweets,27735,27735.0,4088,22375,1272,14.74,80.67,4.59,4088.0,22375.0,1272.0,"keyword census, weight=1"
+1,Trump / voting talk mixed with music promo,timeline,51719,3059297.6,7337,36796,7586,14.19,71.15,14.67,433999.19,2176592.86,448705.54,timeline sample_weight estimates English timeline population in this topic
+2,Everyday conversation,keyword_tweets,11154,11154.0,2054,8775,325,18.41,78.67,2.91,2054.0,8775.0,325.0,"keyword census, weight=1"
+2,Everyday conversation,timeline,23618,1396812.57,4007,16432,3179,16.97,69.57,13.46,236969.09,971845.97,187997.51,timeline sample_weight estimates English timeline population in this topic
+4,Please-DM / help requests,keyword_tweets,20785,20785.0,3669,16207,909,17.65,77.97,4.37,3669.0,16207.0,909.0,"keyword census, weight=1"
+4,Please-DM / help requests,timeline,49972,2955651.33,8493,35830,5649,17.0,71.7,11.3,502337.26,2119207.28,334106.79,timeline sample_weight estimates English timeline population in this topic
+6,Sports (NBA / NFL),keyword_tweets,17544,17544.0,3020,13957,567,17.21,79.55,3.23,3020.0,13957.0,567.0,"keyword census, weight=1"
+6,Sports (NBA / NFL),timeline,16861,997353.72,2655,12213,1993,15.75,72.43,11.82,157049.85,722417.16,117886.71,timeline sample_weight estimates English timeline population in this topic
+7,Faith and prayer,keyword_tweets,8866,8866.0,3444,5078,344,38.85,57.27,3.88,3444.0,5078.0,344.0,"keyword census, weight=1"
+7,Faith and prayer,timeline,14766,873350.67,4159,9137,1470,28.17,61.88,9.96,246012.51,540388.73,86949.43,timeline sample_weight estimates English timeline population in this topic
+8,Football mixed with flat-earth chatter,keyword_tweets,8759,8759.0,5577,3044,138,63.67,34.75,1.58,5577.0,3044.0,138.0,"keyword census, weight=1"
+8,Football mixed with flat-earth chatter,timeline,14962,884787.36,6944,6972,1046,46.41,46.6,6.99,410667.29,412250.45,61869.63,timeline sample_weight estimates English timeline population in this topic
+9,Instagram photography hashtags,keyword_tweets,9141,9141.0,3741,5220,180,40.93,57.11,1.97,3741.0,5220.0,180.0,"keyword census, weight=1"
+9,Instagram photography hashtags,timeline,12078,714448.97,2126,8866,1086,17.6,73.41,8.99,125762.43,524450.25,64236.29,timeline sample_weight estimates English timeline population in this topic
+10,Arguments about truth and lying,keyword_tweets,2808,2808.0,534,1897,377,19.02,67.56,13.43,534.0,1897.0,377.0,"keyword census, weight=1"
+10,Arguments about truth and lying,timeline,8460,500420.66,1296,5136,2028,15.32,60.71,23.97,76662.74,303800.88,119957.04,timeline sample_weight estimates English timeline population in this topic
+11,Digital marketing hashtags,keyword_tweets,4778,4778.0,1201,3516,61,25.14,73.59,1.28,1201.0,3516.0,61.0,"keyword census, weight=1"
+11,Digital marketing hashtags,timeline,9728,575402.24,1817,7256,655,18.68,74.59,6.73,107479.0,429179.13,38744.11,timeline sample_weight estimates English timeline population in this topic
+12,COVID vaccines and Instagram identity hashtags,keyword_tweets,2992,2992.0,633,2049,310,21.16,68.48,10.36,633.0,2049.0,310.0,"keyword census, weight=1"
+12,COVID vaccines and Instagram identity hashtags,timeline,4016,237543.17,238,2842,936,5.93,70.77,23.31,14077.51,168103.09,55362.56,timeline sample_weight estimates English timeline population in this topic
+13,Giveaways and contests,keyword_tweets,5429,5429.0,1271,3787,371,23.41,69.76,6.83,1271.0,3787.0,371.0,"keyword census, weight=1"
+13,Giveaways and contests,timeline,6197,366554.93,1004,4243,950,16.2,68.47,15.33,59388.07,250975.35,56191.51,timeline sample_weight estimates English timeline population in this topic
+14,Nigeria talk and Pokémon GO coordinates,keyword_tweets,3393,3393.0,202,2894,297,5.95,85.29,8.75,202.0,2894.0,297.0,"keyword census, weight=1"
+14,Nigeria talk and Pokémon GO coordinates,timeline,10093,597000.28,791,6850,2452,7.84,67.87,24.29,46788.53,405177.56,145034.19,timeline sample_weight estimates English timeline population in this topic
+15,Dogs and city chatter,keyword_tweets,5643,5643.0,1137,4043,463,20.15,71.65,8.2,1137.0,4043.0,463.0,"keyword census, weight=1"
+15,Dogs and city chatter,timeline,12237,723830.59,1078,8317,2842,8.81,67.97,23.22,63766.18,491961.67,168102.74,timeline sample_weight estimates English timeline population in this topic
+16,Templated ‘every minute’ / kindly spam,keyword_tweets,2930,2930.0,451,1831,648,15.39,62.49,22.12,451.0,1831.0,648.0,"keyword census, weight=1"
+16,Templated ‘every minute’ / kindly spam,timeline,6077,359456.64,1103,4001,973,18.15,65.84,16.01,65243.49,236660.16,57552.99,timeline sample_weight estimates English timeline population in this topic
+17,Crypto / NFTs,keyword_tweets,1542,1542.0,172,1136,234,11.15,73.67,15.18,172.0,1136.0,234.0,"keyword census, weight=1"
+17,Crypto / NFTs,timeline,5911,349583.27,463,3626,1822,7.83,61.34,30.82,27332.99,214480.09,107770.19,timeline sample_weight estimates English timeline population in this topic
+19,China and climate change,keyword_tweets,183,183.0,22,136,25,12.02,74.32,13.66,22.0,136.0,25.0,"keyword census, weight=1"
+19,China and climate change,timeline,1701,100614.59,170,1202,329,9.99,70.66,19.34,10057.94,71096.43,19460.21,timeline sample_weight estimates English timeline population in this topic
+21,K-pop (BTS / Jimin),keyword_tweets,691,691.0,50,514,127,7.24,74.38,18.38,50.0,514.0,127.0,"keyword census, weight=1"
+21,K-pop (BTS / Jimin),timeline,5441,321833.7,388,3296,1757,7.13,60.58,32.29,22949.89,194958.34,103925.47,timeline sample_weight estimates English timeline population in this topic

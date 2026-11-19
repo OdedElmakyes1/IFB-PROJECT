@@ -1,0 +1,20 @@
+﻿topic,topic_id,topic_name,positive,neutral,negative,n_raw,pct_positive,pct_neutral,pct_negative,count_note
+0,0,"Twitter chatter, retweets, and livestreams",37450,120003,25736,183189,20.44,65.51,14.05,unweighted analysis-file mix; not a combined population estimate
+-1,-1,Outliers / too little topic signal,22151,136900,12492,171543,12.91,79.81,7.28,unweighted analysis-file mix; not a combined population estimate
+1,1,Trump / voting talk mixed with music promo,11425,59171,8858,79454,14.38,74.47,11.15,unweighted analysis-file mix; not a combined population estimate
+4,4,Please-DM / help requests,12162,52037,6558,70757,17.19,73.54,9.27,unweighted analysis-file mix; not a combined population estimate
+2,2,Everyday conversation,6061,25207,3504,34772,17.43,72.49,10.08,unweighted analysis-file mix; not a combined population estimate
+6,6,Sports (NBA / NFL),5675,26170,2560,34405,16.49,76.06,7.44,unweighted analysis-file mix; not a combined population estimate
+8,8,Football mixed with flat-earth chatter,12521,10016,1184,23721,52.78,42.22,4.99,unweighted analysis-file mix; not a combined population estimate
+7,7,Faith and prayer,7603,14215,1814,23632,32.17,60.15,7.68,unweighted analysis-file mix; not a combined population estimate
+9,9,Instagram photography hashtags,5867,14086,1266,21219,27.65,66.38,5.97,unweighted analysis-file mix; not a combined population estimate
+15,15,Dogs and city chatter,2215,12360,3305,17880,12.39,69.13,18.48,unweighted analysis-file mix; not a combined population estimate
+11,11,Digital marketing hashtags,3018,10772,716,14506,20.81,74.26,4.94,unweighted analysis-file mix; not a combined population estimate
+14,14,Nigeria talk and Pokémon GO coordinates,993,9744,2749,13486,7.36,72.25,20.38,unweighted analysis-file mix; not a combined population estimate
+13,13,Giveaways and contests,2275,8030,1321,11626,19.57,69.07,11.36,unweighted analysis-file mix; not a combined population estimate
+10,10,Arguments about truth and lying,1830,7033,2405,11268,16.24,62.42,21.34,unweighted analysis-file mix; not a combined population estimate
+16,16,Templated ‘every minute’ / kindly spam,1554,5832,1621,9007,17.25,64.75,18.0,unweighted analysis-file mix; not a combined population estimate
+17,17,Crypto / NFTs,635,4762,2056,7453,8.52,63.89,27.59,unweighted analysis-file mix; not a combined population estimate
+12,12,COVID vaccines and Instagram identity hashtags,871,4891,1246,7008,12.43,69.79,17.78,unweighted analysis-file mix; not a combined population estimate
+21,21,K-pop (BTS / Jimin),438,3810,1884,6132,7.14,62.13,30.72,unweighted analysis-file mix; not a combined population estimate
+19,19,China and climate change,192,1338,354,1884,10.19,71.02,18.79,unweighted analysis-file mix; not a combined population estimate

@@ -1,0 +1,7 @@
+﻿graph,n_nodes,n_edges,density,n_components,largest_component,average_degree,average_weighted_degree,clustering_coefficient,edge_key,min_entity_chars,min_edge_weight,note
+combined_min_edge,1076,2578,0.004458,57,944,4.7918,67.277,0.0101,"unordered (entity_a, entity_b) canonical names",3,5,"Entity co-occurrence, not a follower network"
+keyword_only,646,1261,0.006053,52,500,3.904,53.6409,0.0093,"unordered (entity_a, entity_b) canonical names",3,5,"Entity co-occurrence, not a follower network"
+timeline_only_raw,547,1175,0.007868,40,463,4.2962,54.3218,0.0186,"unordered (entity_a, entity_b) canonical names",3,5,"Entity co-occurrence, not a follower network"
+person_person,187,204,0.01173,32,96,2.1818,29.2193,0.0123,"unordered (entity_a, entity_b) canonical names",3,5,"Entity co-occurrence, not a follower network"
+person_country,273,473,0.01274,22,228,3.4652,57.2088,0.0137,"unordered (entity_a, entity_b) canonical names",3,5,"Entity co-occurrence, not a follower network"
+organization,295,374,0.008624,37,196,2.5356,34.3458,0.0249,"unordered (entity_a, entity_b) canonical names",3,5,"Entity co-occurrence, not a follower network"
